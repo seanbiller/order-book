@@ -1,0 +1,22 @@
+{
+  "name": "order-book",
+  "version": "1.0.0",
+  "description": "Fixing code that is broken due to the odd concept of time in code",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "test": "./node_modules/.bin/mocha ./tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackeducation/order-book.git"
+  },
+  "author": "Stack Education",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.3.0",
+    "mocha": "^6.2.0"
+  }
+}
